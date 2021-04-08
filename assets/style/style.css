@@ -1,21 +1,21 @@
-  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
 html,body{
     height:100%;
     padding:0;
     margin:0;
-    
-
 }
 
 *{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     box-sizing: border-box;
     background-color: #D7C1A3;
 }
 
 
 .topBar{
-    position:fixed;
+    /* position:fixed; */
     width:100%;
     z-index:1;
     display:flex;
@@ -41,5 +41,99 @@ html,body{
     margin: 15px;
 }
 
+.gallery{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr 4fr;
+    grid-gap: 10px;
+    height: 700px;
+    margin-top: 30px;
+}
 
+.gallery > div {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.gallery .bg-1{
+    grid-column:1/2 ;
+    grid-row: 1/2;
+    background-color: #704B4C;
+}
+
+.gallery .bg-2{
+    grid-column:1/2 ;
+    grid-row: 2/3;
+    background-color: #ff9500;
+}
+
+.gallery .bg-3{
+    grid-column:1/2 ;
+    grid-row: 3/4;
+    background-color: #d19193;
+}
+
+.gallery .bg-4{
+    grid-column:1/2;
+    grid-row: 4/5;
+    background-color: #f50a12;
+}
+
+.gallery .bg-5{
+    grid-column:2/4 ;
+    background-color: #3148ac;
+}
+
+.gallery .bg-6{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: #53ff95;
+
+}
+
+.gallery .bg-7{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-color: #bb28bb;
+
+}
+
+.gallery .bg-8{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    background-color: #eef129;
+
+}
+
+.bg-1{
+    background: url("/assets/images/1d2cb008-8aeb-4add-a15a-50bb605bf712.png");
+}
+
+.bg-2{
+    background:url('/assets/images/2.png');
+}
+
+.bg-3{
+    background: url('/assets/images/99ae4d26-5324-4009-99f5-1752641d8e6c.png');
+}
+.bg-4{
+    background: url('/assets/images/ab2ecdc6-222c-4c1d-a6cf-90486e05d28a.png');
+}
+.bg-5{
+    background: url('/assets/images/backupPreview\(1\).png');
+}
+.bg-6{
+    background: url('/assets/images/c4a53787-eba7-49b1-8afd-53278a8a8055.png');
+}
+.bg-7{
+    background: url('/assets/images/folklore\ _retro.png');
+}
+.bg-8{
+    background: url('/assets/images/unknown.png');
+}
 
