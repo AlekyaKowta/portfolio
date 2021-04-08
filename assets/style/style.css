@@ -57,83 +57,89 @@ html,body{
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-attachment: fixed;
+  transition: all 0.5s ease-in;
+  
 }
+
+.gallery > div:hover {
+    opacity: 0.7;
+    transform: scale(0.98);
+  }
 
 .gallery .bg-1{
     grid-column:1/2 ;
     grid-row: 1/2;
-    background-color: #704B4C;
+   
 }
 
 .gallery .bg-2{
     grid-column:1/2 ;
     grid-row: 2/3;
-    background-color: #ff9500;
+    
 }
 
 .gallery .bg-3{
     grid-column:1/2 ;
     grid-row: 3/4;
-    background-color: #d19193;
+    background-color: #704B4C;
+    
 }
 
 .gallery .bg-4{
     grid-column:1/2;
     grid-row: 4/5;
-    background-color: #f50a12;
+    
 }
 
 .gallery .bg-5{
     grid-column:2/4 ;
-    background-color: #3148ac;
+    grid-row: 1/2;
+    background-color: #704B4C;
+    
 }
 
 .gallery .bg-6{
     grid-column: 2/3;
     grid-row: 2/4;
-    background-color: #53ff95;
+   
 
 }
 
 .gallery .bg-7{
     grid-column: 3/4;
     grid-row: 2/4;
-    background-color: #bb28bb;
+    
 
 }
 
 .gallery .bg-8{
     grid-column: 2/4;
     grid-row: 4/5;
-    background-color: #eef129;
+    
 
 }
 
 .bg-1{
-    background: url("/assets/images/1d2cb008-8aeb-4add-a15a-50bb605bf712.png");
+    background: url("../images/8.jpg");
 }
 
 .bg-2{
-    background:url('/assets/images/2.png');
+    background:url('../images/2.jpg');
 }
 
-.bg-3{
-    background: url('/assets/images/99ae4d26-5324-4009-99f5-1752641d8e6c.png');
-}
 .bg-4{
-    background: url('/assets/images/ab2ecdc6-222c-4c1d-a6cf-90486e05d28a.png');
+    background-image: url('../images/1.jpg');
 }
 .bg-5{
-    background: url('/assets/images/backupPreview\(1\).png');
+    background: url('../images/2.jpg');
 }
 .bg-6{
-    background: url('/assets/images/c4a53787-eba7-49b1-8afd-53278a8a8055.png');
+    background: url('../images/4.jpg');
 }
 .bg-7{
-    background: url('/assets/images/folklore\ _retro.png');
+    background: url('../images/5.jpg');
 }
 .bg-8{
-    background: url('/assets/images/unknown.png');
+    background: url('../images/3.jpg');
 }
 
