@@ -27,6 +27,18 @@ html,body{
     
 }
 
+.logoContainer{
+    display: flex;
+    align-items: center;
+}
+
+.logoImg{
+    margin-top: 15px;
+    height:30px;
+    margin-left: 80px;
+    
+}
+
 .navLinks{
     display: flex;
     list-style: none;
